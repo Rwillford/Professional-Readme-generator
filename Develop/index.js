@@ -71,7 +71,7 @@ const generatePage = require("./utils/generateMarkdown.js")
          },
          {
              type: 'input',
-             name: 'emailAdress',
+             name: 'email',
              message: 'What is your email address?'
          }
     ]);
