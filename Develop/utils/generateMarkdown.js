@@ -14,6 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
+  ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)
+
   ## Description
   ${data.projectDescription}
 
@@ -34,7 +36,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Licenses
-  ${data.license} 
+  Here is a link to the licenses
+  https://opensource.org/licenses/${data.license} 
 
   ## Contribution
   ${data.contributing}
