@@ -45,8 +45,10 @@ const generatePage = require("./utils/generateMarkdown.js")
              name: 'license',
              message: 'Please choose your licenses',
              choices: [
+                 'Apache',
                  'ISC',
-                 'MIT'
+                 'MIT',
+                 'IBM'
              ]
          },
          {
@@ -90,11 +92,8 @@ const generatePage = require("./utils/generateMarkdown.js")
     
     
     // TODO: Create a function to initialize app
-    function init() {}
-    
-    // Function call to initialize app
-    init();
-    promptUser()
+    function init() {
+        promptUser()
         .then(answers =>
         {
             return generatePage(answers)
@@ -104,5 +103,10 @@ const generatePage = require("./utils/generateMarkdown.js")
             return writeToFile(data)
         })
         .then(answers => console.log(answers)) 
+    }
+    
+    // Function call to initialize app
+    init();
+    
        
 
