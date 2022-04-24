@@ -1,9 +1,9 @@
-# billy
+# bill
 
- 
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  billy bob learnt code
+  bob
 
   ## Table of Content
   * [Installation](#Installation)
@@ -16,27 +16,27 @@
   * [Email](#Email)
    
   ## Installation
-  git it done
+  dfdshfjkdsf
 
   ## Usage Information
-  my brain
+  dfdfdf
 
   ## Licenses
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-      (https://opensource.org/licenses/Apache-2.0)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+      (https://opensource.org/licenses/MIT)
       
   
   ## Contribution
-  flkjsdaklf
+  dfdf
 
   ## Tests
-  dffd
+  fdf
 
   ## Questions
-  jfdshshdfj
+  fdf
 
   ##### GitHub Username
-  https://www.github.com/fdf
+  https://www.github.com/dfdf
 
   ##### Email
   You can reach at this email for any further questions
