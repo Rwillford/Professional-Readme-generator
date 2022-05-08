@@ -4,7 +4,7 @@ const inquirer = require('inquirer')
 const generatePage = require("./utils/generateMarkdown.js")
 
 // TODO: Create an array of questions for user input
- const promptUser = () => {
+const promptUser = () => { 
      return inquirer.prompt([
          {
              type: 'input',
@@ -27,18 +27,13 @@ const generatePage = require("./utils/generateMarkdown.js")
          },
          {
              type: 'input',
-             name: 'tableOfContents',
-             message: 'What is the projects table of content?'
-         },
-         {
-             type: 'input',
              name: 'installation',
              message: 'What is the installation process?'
          },
          {
              type: 'input',
              name: 'usage',
-             message: 'What is this project used for?'
+             message: 'What langauges were used for this project?'
          },
          {
              type: 'list',
@@ -48,7 +43,8 @@ const generatePage = require("./utils/generateMarkdown.js")
                  'Apache',
                  'ISC',
                  'MIT',
-                 'IBM'
+                 'IBM',
+                 "None"
              ]
          },
          {
@@ -77,9 +73,8 @@ const generatePage = require("./utils/generateMarkdown.js")
              message: 'What is your email address?'
          }
     ]);
- };
+};
 
- const questions = [];
  
  // TODO: Create a function to write README file
  const writeToFile = data => {
@@ -90,7 +85,8 @@ const generatePage = require("./utils/generateMarkdown.js")
         })
     }
     
-    
+
+
     // TODO: Create a function to initialize app
     function init() {
         promptUser()

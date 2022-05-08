@@ -17,13 +17,14 @@ function renderLicenseBadge(license) {
     case 'IBM':
       badge = `![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)`
       break;
-    default:
-      badge: ''
+    case 'None':
+      badge = ''
       break;
   }
   return badge
 
 }
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -45,7 +46,7 @@ function renderLicenseLink(license) {
       link = `(https://opensource.org/licenses/IPL-1.0)`
       break;
 
-    default:
+   case 'None':
       link = ''
       break;
   }
