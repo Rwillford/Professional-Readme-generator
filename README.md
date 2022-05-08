@@ -1,3 +1,14 @@
-# Professional README Generator Starter Code
+# Professional README Generator 
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## User Story
+AS A developer<br>
+I WANT a README generator<br>
+SO THAT I can quickly create a professional README for a new project
+
+### My Story
+With the help of the starter code, I completed the readme generator with node.js
+<img width="924" alt="image" src="https://user-images.githubusercontent.com/99914942/167311629-f71083f6-f5d9-4eaa-88df-0ed8e4b07bbd.png">
+
+### Video Preview
+
+
